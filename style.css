@@ -131,3 +131,6 @@ a {
     -webkit-transition:3s;
     transition: 4s;
 }
+html {
+    scroll-behavior: smooth;
+}
