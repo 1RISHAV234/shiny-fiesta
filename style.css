@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 592px;
+}
+
+.pad {
+    padding-top: 75px;
+    position: fixed;
+    color: black;
+}
+
+#space {
+    padding-top: 100px;
+}
+
+.img1 {
+    top: 0;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 400px;
+    cursor: pointer;
+}
+
+#home {
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(#ff8080 0%, #ff0000 100%);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 50%;
+}
+
+#bio {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#6052ff 0%, #1500ff 100%);
+    left: 0;
+    right: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    padding-top: 50;
+}
+
+#more {
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(#8fffa5 0%, #00ff1e 100%);
+    left: 0;
+    right: 0;
+    opacity: 0.85;
+    display: table;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.head {
+    font-size: 35px;
+    font-family: Segoe UI;
+    color: cornsilk;
+    text-decoration: underline;
+}
+
+.idk {
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: black;
+    font-weight: 400;
+}
+
+.nav {
+    list-style: none;
+    font-family: Segoe UI;
+    position: fixed;
+    top: 10px;
+    z-index: 11;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 640px;
+}
+
+.links {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: Segoe UI;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.links:hover {
+    width: 100px;
+    height: 25px;
+    background: lightblue;
+    -webkit-transition:3s;
+    transition: 3s;
+}
+#img2 {
+    border-radius: 20px;
+    cursor: pointer;
+}
+.line {
+    height: 5px;
+    background-color: black;
+    width: 100px;
+    margin: 8px auto;
+}
+.asus {
+    width: 100%;
+    background-color: #ebe6e6;
+    height: 85px;
+    position: fixed;
+    margin: 0 0 40px 0;
+    z-index: 10;
+}
+.asus:hover {
+    background: #ffffff;
+    -webkit-transition:3s;
+    transition: 4s;
+}
